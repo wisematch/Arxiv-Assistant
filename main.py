@@ -15,9 +15,9 @@ assistant = ArxivAssistant(
     mail_pass=mail_info["mail_pass"],  #发送邮箱的密码（注：QQ邮箱需要开启SMTP服务后在此填写授权码）
     
     categories=['cs.CV', 'cs.CL', 'cs.LG', 'cs.MA', 'cs.MM', 'cs.AI', 'cs.SD'], 
-    keywords=['large language model', 'LLM', 'vision backbone', 'object detection', 'minecraft', 'agent', 'learning representation', 'multimodal',
-                'music generation', 'vision transformer', 'ViT'],
-    negative_keywords=['3D', 'medical'],
+    keywords=['large language model', 'LLM', 'vision backbone', 'object detection', 'learning representation', 'multimodal', 'vision transformer', 'ViT',
+              'person re-Identification', 'human pose estimation', 'person search', 'self-supervised', 'multi-resolution', ],
+    negative_keywords=['medical', 'biometrics', 'point cloud'],
     
     mail_receivers=mail_info.get("mail_receivers", None),
     gpt_filter=False,
