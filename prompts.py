@@ -13,7 +13,7 @@ Your output should be a list of indexes:
 [index1, index2, ...]
 The indexes are **NOT** in the ascending order, but based on the **relevance and significance** of the papers. The most relevant paper should be the first index.
 Please ensure that your output can be parsed by Python json.loads.
-
+Please also give a simple summary for each selected paper in Chinese, the summary should not be more than 50 words.
 
 
 The cancidate papers are as follows:
